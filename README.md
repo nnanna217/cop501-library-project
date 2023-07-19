@@ -2,9 +2,9 @@
 # COP 501 Coursework
 # Author - F218341
 
-==================
+
 ## Database Structure
-==================
+
     - Schema Structure -
      View ERD via the GUI menu (in menu.py). Navigate to Database -> View DBStructure
         Tables - books, books_loans, book_reservation, book_transaction_logs, log_action, status, book_images
