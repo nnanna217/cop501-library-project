@@ -1,18 +1,18 @@
-############################
+
 # COP 501 Coursework
 # Author - F218341
-############################
+
 ==================
-Database Structure
+## Database Structure
 ==================
     - Schema Structure -
      View ERD via the GUI menu (in menu.py). Navigate to Database -> View DBStructure
         Tables - books, books_loans, book_reservation, book_transaction_logs, log_action, status, book_images
         Views - available_books, loaned_books
 
-===================
-database.py module
-===================
+
+## database.py module
+
     - Initialization - Defined in initialize_db - Reads the Book_Info & Loan Reservation files and preloads the DB using
             data wrangling and loading 7 tables as described in the Schema section
     - Clearing Database - Defined in initialize_db (and GUI in the File -> Clear Database menu)
@@ -27,9 +27,8 @@ database.py module
 
     This module also contains other helper functions for testing and data wrangling.
 
-================
-menu.py module
-================
+## menu.py module
+
     Build the GUI using a hybrid of OOP components and modular functions
     Watch this 7mins walkthrough of the Library application https://youtu.be/XrSVTUE-ghE
 
@@ -48,9 +47,9 @@ menu.py module
         - Image display on single click event of Treeview.
 
 
-====================
-bookSelect.py module
-====================
+
+## bookSelect.py module
+
     - Displayed the following
         - Top 10 most searched books (most booked or reserved)
         - A pie chart of Top Genres borrowed
@@ -58,13 +57,13 @@ bookSelect.py module
     The visualizations were designed using meta-data from the book transaction logs.
     Due to time constraints, I could not add desired advanced recommendation.
 
-bookSearch.py module
+## bookSearch.py module
     - N/A
 
-bookCheckout.py module
+## bookCheckout.py module
     - I was constrained by time to fully implement Reserve book. While notification for reservation was implemented
     Display book reservation  option was not implemented
 
-bookReturn.py module
+## bookReturn.py module
     - N/A
 
