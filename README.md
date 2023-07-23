@@ -1,6 +1,7 @@
+Demo Video - https://youtu.be/XrSVTUE-ghE
 
 # COP 501 Coursework
-# Author - F218341
+# Author/Student ID - 
 
 
 ## Database Structure
@@ -29,7 +30,7 @@
 
 ## menu.py module
 
-    Build the GUI using a hybrid of OOP components and modular functions
+    Built the GUI using a hybrid of OOP components and modular functions
     Watch this 7mins walkthrough of the Library application https://youtu.be/XrSVTUE-ghE
 
     - Extras
@@ -58,7 +59,7 @@
     Due to time constraints, I could not add desired advanced recommendation.
 
 ## bookSearch.py module
-    - N/A
+    - Contains functionality to enable book search
 
 ## bookCheckout.py module
     - I was constrained by time to fully implement Reserve book. While notification for reservation was implemented
